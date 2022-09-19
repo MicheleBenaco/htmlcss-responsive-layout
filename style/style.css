@@ -115,18 +115,13 @@ nav{
 /* sezione 2 */
 
 .box-palanning1{
-    margin: 0 auto;
+    width: 500px;
 }
 .img-planning1{
     float: inline-start;
-    width: 300px;
-    
+    width: 300px;  
 }
 
-.img-planning2{
-    float: inline-start;
-    width: 200px;
-}
 
 .testo-sc2{
     padding: 3em;
@@ -135,23 +130,160 @@ nav{
     padding-bottom: 1em;
 }
 
+
+
+.img-planning2{
+    float: inline-start;
+    width: 200px;
+}
+
 .box-palanning2{
     background-color: var(--white);
     border-radius: 50px;
     width: 400px;
     margin: 0 auto;
-   
-
+    padding-bottom: 2em;
 
 }
-h2{
-    color: black;
+.box-palanning2 h2{
+    color: var(--black);
+    padding: 2em;
 }
+.box-palanning2 p{
+    color: #000;
+    font-style: italic;
+
+}
+.box-palanning2 .material-symbols-outlined{
+    color: var(--black);
+    margin-top: 1em;
+    font-size: 40px;
+    border: 1px solid var(--pink);
+    border-radius:50% ;
+    background-color: var(--pink);
+    
+}
+
+
 
 .bg-pink{
     background-color: var(--pink);
     color: var(--white);
 }
+
+/* Sezione 3  */
+.sez3{
+    padding: 2em;
+}
+.sez3 h3{
+    font-style: italic;
+}
+.sez3 h2{
+    color: var(--pink);
+    padding-top: 0.6em;
+    padding-bottom: 1em;
+}
+
+.box-testimonial{
+    background-color: var(--pink);
+    border-radius: 50px;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    color: white;
+    margin-top: 2em ;
+    margin-bottom: 3em;
+
+}
+
+.testimonial1{
+    float: inline-start;
+    width: 200px;
+    height: 200px;
+    margin-top: 2em;
+    border-radius: 50%;
+
+}
+
+/* sezione 4 */
+
+.box-card-quality{
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    color: white;
+    margin-top: 2em ;
+    margin-bottom: 3em;
+    padding-top: 1em;
+}
+
+.box-card-quality h2{
+    color: var(--pink);
+    margin-left: 1em;
+    font-size: 40px;
+}
+.box-card-quality h3{
+    color: var(--pink);
+    margin-left: 1em;
+
+}
+.box-card-quality p{
+    color: var(--black);
+    padding: 1em;
+}
+.button2{
+    margin-top: 5rem;
+    border: 1px solid ;
+    background-color: var(--pink);
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-style: italic;
+}
+
+/* sezione5 */
+
+h1{
+    font-size: 50px;
+    color: var(--pink);
+    padding: 1em;
+
+}
+
+.about-p{
+    margin-left: 4em;
+    margin-right:4em ;
+    padding-bottom: 3em;
+}
+
+.img-about{
+    float: inline-start;
+    width: 200px;
+    height: 200px;
+    margin-top: 2em;
+    border-radius: 50%;
+    margin-left: 2em;
+}
+
+.colorh2{
+    color: var(--pink);
+    padding: 1em;
+}
+
+.button3{
+    color: var(--white);
+    background-color: var(--pink);
+    margin: 2em;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+}
+
 
 /* footer */
 

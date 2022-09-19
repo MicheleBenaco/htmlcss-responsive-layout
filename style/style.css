@@ -46,6 +46,7 @@ header{
     background-color: var(--blue);
     color: var(--white);
     padding: 1rem 2rem ;
+    
 }
 .d-flex-menu{
     display: flex;
@@ -53,8 +54,7 @@ header{
     margin: 0 auto;
     text-align: center;
     padding: 10px;  
-    position: sticky; 
-    z-index: 1000;
+    
 }
 
 nav{
@@ -72,6 +72,7 @@ nav{
 .card{
     background-color: var(--lightblue);
     border-radius: 10px;
+    margin: 2em;
 }
 
 .card-h2{
@@ -99,13 +100,53 @@ nav{
 /* card1 */
 .img-phone{
     float: inline-start;
-    width: 200px;
+    width: 250px;
     margin-top: 2em;
 }
 
+/* card2 */
+.card .material-symbols-outlined {
+    font-size: 100px;
+    color: var(--blue);
+    
+}
 
 
+/* sezione 2 */
 
+.box-palanning1{
+    margin: 0 auto;
+}
+.img-planning1{
+    float: inline-start;
+    width: 300px;
+    
+}
+
+.img-planning2{
+    float: inline-start;
+    width: 200px;
+}
+
+.testo-sc2{
+    padding: 3em;
+}
+.testo-sc2 h2{
+    padding-bottom: 1em;
+}
+
+.box-palanning2{
+    background-color: var(--white);
+    border-radius: 50px;
+    width: 400px;
+    margin: 0 auto;
+   
+
+
+}
+h2{
+    color: black;
+}
 
 .bg-pink{
     background-color: var(--pink);

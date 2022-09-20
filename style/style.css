@@ -1,4 +1,6 @@
 /* UTILITY */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -168,34 +170,24 @@ label .menu {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* adsadasdadadad */
+
+
+.cont-cards{
+    padding-top: 8em;
+}
 
 
 .card{
     background-color: var(--lightblue);
     border-radius: 10px;
-    margin: 2em;
+    margin: 10px;
 }
 
 .card-big{
     background-color: var(--lightblue);
     border-radius: 10px;
-    margin: 2em;
+    margin: 10px;
 }
 
 .card-h2{
@@ -328,6 +320,7 @@ label .menu {
     height: 200px;
     margin-top: 2em;
     border-radius: 50%;
+    object-fit: cover;
 
 }
 
@@ -458,11 +451,11 @@ footer{
     }
 
     .card-big{
-        width: calc(66%,66 - 2em);
+        width: calc((100% / 1) - 20px);
     }
 
     .card{
-        width: calc(33%,33 -2em);
+        width: calc((100% / 2) - 25px);
     }
 
     .img-phone{
